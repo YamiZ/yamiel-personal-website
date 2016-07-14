@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Yamiel's Web Resume</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<!--script src="js/"></script-->
 </head>
 <body>
-	<nav>
-		<h1>Yamiel L. Zea</h1>
-		<div id="navLinks">
-			<a href="#about">ABOUT</a> 
-			<a href="#resume">RESUME</a> 
-			<a href="#skills">SKILLS</a> 
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Yamiel L. Zea</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a class="smoothScroll"  href="#top-about">About</a></li>
+					<li><a class="smoothScroll" href="#resume">Resume</a></li>
+					<li><a class="smoothScroll"  href="#top-skills">Skills</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
 		</div>
 	</nav>
 
-	<div class="bigBack" id="about">
-		<p>I am a UConn graduate pursing a career in software engineering</p>
+	<div class="row bigBack" id="about">
+	<a id="top-about"></a>
+		<div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
+			<p>I am a UConn graduate pursing a career in software engineering</p>
+		</div>
 	</div>
 
-	<div id="resume">
+	<div class="row" id="resume">
 		<dl>
 			<dt>Education</dt>
 
@@ -57,10 +76,17 @@
 			</dl>
 		</div>
 
-		<div class="bigBack" id="skills">
-			<p>Skills Section</p>
+		<div class="row bigBack" id="skills">
+		<a id="top-skills"></a>
+			<div class="col-md-12">
+				<p>Skills Section</p>
+			</div>
 		</div>
 
 
+		<!--the scripts are added after the html for faster loading-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/smoothscroll.js"></script>
 	</body>
 	</html>
