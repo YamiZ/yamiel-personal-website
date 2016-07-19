@@ -7,10 +7,17 @@
 	<title>Yamiel's Web Resume</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200italic,400,700">
 </head>
 
 <body>
 
+<!-- <div id="warning-message">
+
+     this website is only viewable in landscape mode
+</div> -->
+
+<!-- <div id="wrapper"> -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -20,85 +27,101 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand smoothScroll" href="#top-about">Yamiel L. Zea</a>
+				<a class="navbar-brand" href="#home">Yamiel L. Zea</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a class="smoothScroll"  href="#top-about">About</a></li>
-					<li><a class="smoothScroll" href="#resume">Resume</a></li>
-					<li><a class="smoothScroll"  href="#top-skills">Skills</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#skills">Skills</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
 	</nav>
 
-	<div class="contianer-fluid">
-
-		<div class="row">
-			<a id="top-about"></a>
-			<div class="bigBack" id="about">
-				<div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
-					<p>I am a UConn graduate pursing a career in software engineering</p>
+	<div class="bigBack" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+					<h1>Yamiel Zea</h1>
+					<p>Web Developer & Entrepreneur</p>
 				</div>
 			</div>
 		</div><!--about row-->
+	</div>
 
-		
+
+	<div class="bg-light">
+		<div class="container">
+			<div class="row" id="about">
+				<div class="col-md-4 text-center">
+					<img src="images/sface.jpg">
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12 text-center">
+					<h3>About Me</h3>
+					<p>I am a UConn graduate pursing a career in software engineering</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
 		<div class="row" id="resume">
-			<dl>
-				<dt>Education</dt>
+			<div class="col-xs-12">
+				<dl>
+					<dt>Education</dt>
 
-				<dd>
-					<p>
-						<t>University of Connecticut</t>
+					<dd>
+						<p>
+							<t>University of Connecticut</t>
+							<br>
+							BS, Engineering, Computer Science and Engineering  2014
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<h3><dt>Work</dt></h3>
+					<dd>
+
+						<h5>Universal Staffing Service, Hartford, CT – September 2015 - December 2015
 						<br>
-						BS, Engineering, Computer Science and Engineering  2014
-					</p>
-				</dd>
-			</dl>
-			<dl>
-				<dt>Work</dt>
-				<dd>
+						IT Supply Chain Analyst, Pratt and Whitney; East Hartford, CT </h5>
+							<ul>
+								<li>Analyze supply chain data utilizing computer tools like MS Access and MS Excel 
+								</li>
+								<li>Create analysis suites to visualize the nature of the supply chain 
+								</li>
+							</ul>
 
-					<h4>Universal Staffing Service, Hartford, CT – September 2015 - December 2015
-					<br>
-					IT Supply Chain Analyst, Pratt and Whitney; East Hartford, CT </h4>
-					<ul>
-						<li>Analyze supply chain data utilizing computer tools like MS Access and MS Excel 
-						</li>
-						<li>Create analysis suites to visualize the nature of the supply chain 
-						</li>
-					</ul>
-
-					<h4>INROADS Internship Program, Hartford, CT – June 2011 - September 2014</h4>
-					<ul>
-						<li>IT Summer Internship; Pratt and Whitney; East Hartford, CT — June 2014 - September 2014</li>
-						<li>IT Network Services Intern; UTC Corporate, Newington, CT — June 2013 - August 2013</li>
-						<li>IT Business Intelligence Intern; Pratt and Whitney, East Hartford, CT — June 2012 - August 2012</li>
-						<li>IT Supply & Demand and Logistics Intern; Pratt and Whitney, East Hartford, CT — June 2011 - August 2011</li>
-					</ul>
-				</dd>
+						<h5>INROADS Internship Program, Hartford, CT – June 2011 - September 2014</h5>
+							<ul>
+								<li>IT Summer Internship; Pratt and Whitney; East Hartford, CT — June 2014 - September 2014</li>
+								<li>IT Network Services Intern; UTC Corporate, Newington, CT — June 2013 - August 2013</li>
+								<li>IT Business Intelligence Intern; Pratt and Whitney, East Hartford, CT — June 2012 - August 2012</li>
+								<li>IT Supply & Demand and Logistics Intern; Pratt and Whitney, East Hartford, CT — June 2011 - August 2011</li>
+							</ul>
+					</dd>
+				</dl>
+			</div>
 		</div><!--resume row-->
+	</div>
 
-
-
-		
-		<div class="row">
-			<div class="bigBack" id="skills">
-				<a id="top-skills"></a>
+	<div class="bigBack" id="skills">
+		<div class="container">	
+			<div class="row">	
 				<div class="col-md-12">
 					<p>Skills Section</p>
 				</div>
 			</div>
-		</div><!--skills row-->
+		</div><!-- contianer closed-->
+	</div><!--skills-->
 
-	</div><!-- contianer closed-->
-
+<!--/div-->
 
 	<!--the scripts are added after the html for faster loading-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
