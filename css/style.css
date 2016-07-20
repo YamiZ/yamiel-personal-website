@@ -1,10 +1,4 @@
-/** {
-	margin: 0px;
-}
 
-h1, h2, h3, h4, h5, h6, p,ul{
-	margin-bottom: 20px;
-}*/
 
 html, body {
 	height: 100%;
@@ -14,10 +8,7 @@ html, body {
 
 body{
 	padding-top:50px;
-}
-
-hr {
-	color: black;
+	font-size: 1.5rem;
 }
 
 .bg-light{
@@ -63,9 +54,10 @@ hr {
 #about img {
 	border-radius: 50%;
 	border: 5px solid #ead879;
-	width: 50%;
 	max-width: 246px; 
 	max-height: 246px; 
+	vertical-align: middle;
+
 }
 
 /*----resume section----*/
@@ -78,21 +70,36 @@ hr {
 	list-style: none;
 }
 
-/*----skills section----*/
-#skills{
+#resume i{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+	text-shadow: none;
+}
+
+.align-right{
+	text-align: center;
+}
+
+/*----contact section----*/
+#contact{
 	background-image: 
 	url(../images/landscape.jpg);
 }
 
 /*----contact section----*/
-#contact{
-
+#contact i{
+	color: #ead879;
+	text-shadow: 0 0 2px #000;
 }
 
+.date{
+	color: blue;
+}
+/* 
+was going to be used to force user into landsacpe mode
 
-
-
-/* #warning-message { 
+#warning-message { 
  	padding-top: 50%;
  	text-align: center;
  	display: none; }
