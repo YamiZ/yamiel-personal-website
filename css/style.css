@@ -64,6 +64,7 @@ body{
 
 #resume {
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #resume ul li{
@@ -79,6 +80,10 @@ body{
 
 .align-right{
 	text-align: center;
+}
+
+date {
+	font-style: italic;
 }
 
 /*----contact section----*/
