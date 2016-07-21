@@ -81,6 +81,10 @@ body{
 	text-align: center;
 }
 
+.date{
+	color: blue;
+}
+
 /*----contact section----*/
 #contact{
 	background-image: 
@@ -93,9 +97,12 @@ body{
 	text-shadow: 0 0 2px #000;
 }
 
-.date{
-	color: blue;
+#contact i:hover{
+	color: #bbad60;
 }
+
+
+
 /* 
 was going to be used to force user into landsacpe mode
 
